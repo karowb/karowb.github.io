@@ -154,22 +154,19 @@ aside p{
     padding: 0rem 0rem 1rem 0rem;
 }
 
+.expand {
+    display: flex;
+    font-size: 0.33rem;
+    text-decoration: none;
+    padding: 0.25rem 0 .5rem 0;
+    }
+
 .subsection {
     display: flex;
 }
 
 footer {
-    display: grid;
-}
-
-.copy {
-    grid-column: 1 / 2;
-    text-align: left;
-}
-
-.credit {
-    grid-column: 2 / 3;
-    text-align: right;
+    display: flex;
 }
 
 /* IMAGES AND FIGURES */
